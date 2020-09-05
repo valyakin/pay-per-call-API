@@ -14,6 +14,7 @@ eventBus.on('aa_channels_ready', function(){
 
 class Server {
 	constructor(sweepingPeriod, rpcPort) {
+		console.log('Server sweepingPeriod', sweepingPeriod)
 		this.sweepingPeriod = sweepingPeriod;
 		this.sweepChannelsIfPeriodExpired(this.sweepingPeriod);
 		if (rpcPort)

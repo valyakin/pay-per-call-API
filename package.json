@@ -8,5 +8,21 @@
 		"aa-channels-lib": "git+https://github.com/Papabyte/aa-channels-lib.git",
 		"json-rpc2": "^1.0.2",
 		"ocore": "git+https://github.com/byteball/ocore.git"
+	},
+	"scripts": {
+		"test": "mocha test/index.js --exit --bail"
+	},
+	"devDependencies": {
+		"aa-testkit": "../aa-testkit",
+		"chai": "^4.2.0",
+		"eslint": "^6.3.0",
+		"eslint-config-standard": "^14.1.0",
+		"eslint-plugin-chai-friendly": "^0.4.1",
+		"eslint-plugin-import": "^2.18.2",
+		"eslint-plugin-mocha": "^6.1.1",
+		"eslint-plugin-node": "^10.0.0",
+		"eslint-plugin-promise": "^4.2.1",
+		"eslint-plugin-standard": "^4.0.1",
+		"mocha": "^6.2.0"
 	}
 }
